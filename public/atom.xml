@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>JinJie&#39;s Blog</title>
+  
+  <subtitle>Listen more than you speak, accept everyone&#39;s blame, but reserve your final judgment.</subtitle>
+  <link href="https://codeliangjie.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://codeliangjie.github.io/"/>
+  <updated>2022-09-05T13:50:40.221Z</updated>
+  <id>https://codeliangjie.github.io/</id>
+  
+  <author>
+    <name>JinJie</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>mysql-常用查询语法</title>
+    <link href="https://codeliangjie.github.io/2022/08/27/mysql-%E5%B8%B8%E7%94%A8%E6%9F%A5%E8%AF%A2%E8%AF%AD%E6%B3%95/"/>
+    <id>https://codeliangjie.github.io/2022/08/27/mysql-%E5%B8%B8%E7%94%A8%E6%9F%A5%E8%AF%A2%E8%AF%AD%E6%B3%95/</id>
+    <published>2022-08-27T09:47:02.000Z</published>
+    <updated>2022-09-05T13:50:40.221Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>—select—</strong></p><div class="gallery-group-main">  <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src="https://i.loli.net/2019/11/10/T7Mu8Aod3egmC4Q.png" alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">壁纸</div>  <p>收藏的一些壁纸</p>  <a href="/Gallery/wallpaper"></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src="https://i.loli.net/2019/12/25/8t97aVlp4hgyBGu.jpg" alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">漫威</div>  <p>关于漫威的图片</p>  <a href="/Gallery/marvel"></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src="https://i.loli.net/2019/12/25/hOqbQ3BIwa6KWpo.jpg" alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">OH MY GIRL</div>  <p>关于OH MY GIRL的图片</p>  <a href="/Gallery/ohmygirl"></a>  </figcaption>  </figure>  </div><div class="note simple"><p>默认 提示块标籤</p></div><div class="note default simple"><p>default 提示块标籤</p></div><div class="note primary simple"><p>primary 提示块标籤</p></div><div class="note success simple"><p>success 提示块标籤</p></div><div class="note info simple"><p>info 提示块标籤</p></div><div class="note warning simple"><p>warning 提示块标籤</p></div><div class="note danger simple"><p>danger 提示块标籤</p></div>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;strong&gt;—select—&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&quot;gallery-group-main&quot;&gt;
+
+  &lt;figure class=&quot;gallery-group&quot;&gt;
+  &lt;img class=&quot;gallery-group-img no-light</summary>
+      
+    
+    
+    
+    <category term="MySQL数据库" scheme="https://codeliangjie.github.io/categories/MySQL%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    
+    
+    <category term="MySQL" scheme="https://codeliangjie.github.io/tags/MySQL/"/>
+    
+    <category term="数据库" scheme="https://codeliangjie.github.io/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    
+    <category term="java" scheme="https://codeliangjie.github.io/tags/java/"/>
+    
+    <category term="spring" scheme="https://codeliangjie.github.io/tags/spring/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://codeliangjie.github.io/2022/08/27/hello-world/"/>
+    <id>https://codeliangjie.github.io/2022/08/27/hello-world/</id>
+    <published>2022-08-27T01:31:05.341Z</published>
+    <updated>2022-09-03T16:59:11.122Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span> </span><br><span class="line">hexo new <span class="string">&quot;My New Post&quot;</span> </span><br><span class="line">hexo new <span class="string">&quot;My New Post&quot;</span> </span><br><span class="line">hexo new <span class="string">&quot;My New Post&quot;</span> </span><br><span class="line">hexo new <span class="string">&quot;My New Post&quot;</span> </span><br><span class="line">hexo new <span class="string">&quot;My New Post&quot;</span> </span><br><span class="line">hexo new <span class="string">&quot;My New Post&quot;</span> </span><br><span class="line">hexo new <span class="string">&quot;My New Post&quot;</span> </span><br><span class="line">hexo new <span class="string">&quot;My New Post&quot;</span> </span><br><span class="line">hexo new <span class="string">&quot;My New Post&quot;</span> </span><br><span class="line">hexo new <span class="string">&quot;My New Post&quot;</span> </span><br><span class="line">hexo new <span class="string">&quot;My New Post&quot;</span> </span><br><span class="line">hexo new <span class="string">&quot;My New Post&quot;</span> </span><br><span class="line">hexo new <span class="string">&quot;My New Post&quot;</span> </span><br><span class="line">hexo new <span class="string">&quot;My New Post&quot;</span> hexo new <span class="string">&quot;My New Post&quot;</span> </span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
+    
+    <summary type="html">Hexo 基本命令</summary>
+    
+    
+    
+    
+  </entry>
+  
+</feed>
